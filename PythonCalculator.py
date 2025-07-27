@@ -11,7 +11,7 @@ elif op == '*':
 elif op == '/':
     print("answer",a/b)  
 else:
-    print("Error : invalid oprator ")
+    raise ValueError(f"Invalid operator '{op}'. Please use +, -, * or /")
 
 
 
